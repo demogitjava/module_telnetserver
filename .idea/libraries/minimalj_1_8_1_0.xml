@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="minimalj-1.8.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/minimal-j/minimalj-1.8.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/minimal-j/nanohttpd-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
