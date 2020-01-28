@@ -36,7 +36,7 @@ class DefaultTheme extends PropertyTheme {
             "background[PRELIGHT] = white\n" +
             "sgr[PRELIGHT]        = bold\n" +
             "foreground[ACTIVE]   = white\n" +
-            "background[ACTIVE]   = black\n" +
+            "background[ACTIVE]   = white\n" +
             "sgr[ACTIVE]          = bold\n" +
             "foreground[INSENSITIVE] = white\n" +
             "background[INSENSITIVE] = white\n" +

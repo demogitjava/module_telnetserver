@@ -92,8 +92,6 @@ public class MainWindowTelnet
                         //action.run()
 
 
-
-
                         String stuserst = ALL_TEXTBOXES.get(0).getText();
                         String stpass = ALL_TEXTPASS.get(0).getText();
                         return Result.HANDLED;
