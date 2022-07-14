@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="da850d02-a350-44fe-b9c4-92cd94e46242" />
+    <targets>
+      <target name="img_telnetserver" type="docker" uuid="da850d02-a350-44fe-b9c4-92cd94e46242">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildImageConfig">
+            <BuildImageConfig>
+              <option name="builtImageTag" value="img_telnetserver" />
+              <option name="dockerFile" value="Dockerfile" />
+            </BuildImageConfig>
+          </option>
+          <option name="containerConfig">
+            <ContainerConfig>
+              <option name="runCliOptions" value="-p 217.160.255.254:23:23 --name telnetmodule" />
+            </ContainerConfig>
+          </option>
+          <option name="projectRootOnTarget" value="/" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="javaVersionString" value="17.0.2" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
